@@ -13,7 +13,9 @@ echo "Please select your local aws profile";
 
 read profile;
 
-echo "You have choosen the following profile: $profile";
+crt_profile=$profile;
 
-export AWS_PROFILE=$profile
+echo "You have choosen the following profile: $crt_profile";
+
+export AWS_PROFILE=$crt_profile;
 
